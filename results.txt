@@ -1,0 +1,14 @@
+Grid1:
+- no heurestics: 959
+- freespaces to solution column heuristic: 926
+- number of spaces to solution column heuristic: 546
+
+Grid2:
+- no heurestics: 2399
+- freespaces to solution column heuristic: 2399
+- number of spaces to solution column heuristic: 2373
+
+Grid3:
+- no heurestics: 375 
+- freespaces to solution column heuristic: 371
+- number of spaces to solution column heuristic: 351
