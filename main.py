@@ -209,9 +209,9 @@ def actions(grid):
 # Function to determine how beneficial a subsequent grid is to solving our problem
 def heuristic(subGrid):
 
-    return spacesToGoal(subGrid)
+    #return spacesToGoal(subGrid)
     #return 0
-    #return freeSpaces(subGrid)
+    return freeSpaces(subGrid)
     
 # Function to determine how many spaces are between the red car and the solution block in the grid
 def spacesToGoal(grid):
@@ -231,7 +231,7 @@ def freeSpaces(grid):
                 if grid.getGrid()[k][grid.getSolutionColumn()] != 0:
                     count += 1
             break
-    return count
+    return count*2
 
 def goal_test(state):
     return state.getGrid()[0][state.getSolutionColumn()] == -1
